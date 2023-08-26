@@ -1,0 +1,182 @@
+
+.header {
+    width: 100vw;
+    height: 10rem;
+    background-color: rgb(245, 31, 31);
+    display: flex;
+    align-items: center;
+    place-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+ 
+
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: calc(100vw - 16px);
+    
+}
+
+.MyTag {
+    font-family: 'Permanent Marker', cursive;
+    color: azure;
+    font-size: 3em;
+    margin-left: 2rem;
+    
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo-left {
+      
+      animation: App-logo-spin-left infinite 20s linear;
+    }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo-right {
+    
+    animation: App-logo-spin-right infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin-right {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes App-logo-spin-left {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+  
+.App-logo-left {
+    height: 40vmin;
+    pointer-events: none;
+   
+    place-items: center;
+    object-fit: cover;
+    box-sizing: border-box;
+    background-attachment: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+
+}
+.App-logo-right {
+  height: 40vmin;
+  pointer-events: none;
+ 
+  place-items: center;
+  object-fit: cover;
+  box-sizing: border-box;
+  background-attachment: cover;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+
+}
+/*
+@media screen min {160px ) {
+    display: flex;
+
+    
+}
+*/
+.MenuBar {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    justify-content: space-between;
+    margin-right: 25px;
+
+}
+.button {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0.5rem;
+    
+    font-size: 1.5em;
+    font-family: 'Creepster', sans-serif;
+}
+
+.button:hover{
+    background-color: aqua;
+    border-color: black;
+    color: black;
+    font-size: 2em;
+}
+
+.uhr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 1em;
+  box-sizing: content-box;
+  border-color: black;
+  border-style: solid;
+  border-radius: 2.5rem;
+}
+.clock {
+  display: block;
+  font-family: 'Creepster', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+  visibility: visible;
+  font-style: bold;
+  
+}
+.banner {
+  height: 15vh;
+  width: max-content;
+  align-items: center;
+  object-fit: contain; 
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: transparent;
+
+}
+
+.bannerLogo {
+  object-fit: cover;
+  box-sizing: border-box;
+  height: 5em;
+  width: 5em;
+  background-attachment: fixed;
+  
+}
+.headline{
+  display: block;
+  font-size: 2em;
+  color: magenta;
+  font-family: 'Creepster', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
